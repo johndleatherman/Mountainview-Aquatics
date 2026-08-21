@@ -1,7 +1,9 @@
-﻿<!DOCTYPE html><html class="scroll-smooth" lang="en"><head>
+<!DOCTYPE html>
+<html class="scroll-smooth" lang="en"><head>
+
 <meta charset="utf-8">
 <meta content="width=device-width, initial-scale=1.0" name="viewport">
-<title>Mountainview Aquatics | Catalog</title>
+<title>Care Guides | Mountainview Aquatics</title>
 <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&amp;family=Inter:wght@400;600&amp;family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
@@ -114,9 +116,9 @@
             background: linear-gradient(0deg, rgba(25, 28, 30, 0.4) 0%, rgba(25, 28, 30, 0) 100%);
         }
     </style>
+
 </head>
 <body class="bg-background text-on-surface font-body-md selection:bg-secondary-container selection:text-on-secondary-container">
-<!-- TopNavBar -->
 <header class="fixed top-0 w-full z-50 shadow-md dark:shadow-none bg-surface/90 glass-nav">
 <nav class="flex items-center px-margin-desktop py-4 max-w-container-max mx-auto">
 <a href="index.html" class="font-display-lg text-headline-md text-primary dark:text-primary-fixed-dim shrink-0">Mountainview Aquatics</a>
@@ -143,66 +145,108 @@
 </div>
 </nav>
 </header>
-<main class="pt-20">
+<main class="flex-grow pt-20">
 <!-- Hero Section -->
-<section class="relative h-[85vh] min-h-[600px] flex items-end overflow-hidden group">
-<div class="absolute inset-0 z-0 scale-105 transition-transform duration-[10s] group-hover:scale-100">
-<img class="w-full h-full object-cover" style="object-position: center 30%;" src="images/aquarium-angelfish-pterophyllum-scalare.webp" alt="Angelfish Pterophyllum scalare in aquarium">
-<div class="absolute inset-0 hero-gradient"></div>
+<section class="relative w-full h-[60vh] min-h-[400px] flex items-center justify-center overflow-hidden">
+<div class="absolute inset-0 z-0">
+<img class="w-full h-full object-cover object-center filter brightness-50" src="images/aquarium.jpg" alt="Freshwater aquarium care guide hero - pristine planted tank">
 </div>
-<div class="relative z-10 w-full px-margin-desktop max-w-container-max mx-auto pb-24">
-<div class="max-w-2xl animate-fade-in-up">
-<span class="inline-block bg-secondary px-4 py-1 rounded-full text-on-secondary font-label-md text-caption uppercase tracking-[0.2em] mb-6">Premium Aquatic Specimens</span>
-<h1 class="font-display-lg text-display-lg text-white mb-8 leading-tight drop-shadow-lg">Vibrant Wonders for Your Freshwater Haven</h1>
+<div class="relative z-10 text-center px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto text-on-primary">
+<h1 class="font-display-lg text-display-lg mb-6">Freshwater Care Guides</h1>
+<p class="font-body-lg text-body-lg max-w-2xl mx-auto mb-8 text-on-primary/90">Every fish from Mountainview Aquatics comes with a detailed care document — plus our complete freshwater aquarium management system for long-term success.</p>
+<a href="#care-documents" class="bg-[#FF6F61] text-white px-8 py-3 rounded-full font-label-md text-label-md uppercase tracking-wider hover:scale-105 transition-transform duration-300 shadow-level-1 inline-block text-center">Explore Guides</a>
+</div>
+</section>
+
+<!-- Care Documents Section -->
+<section id="care-documents" class="py-section-gap px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto scroll-mt-24" style="scroll-margin-top: 96px;">
+<div class="max-w-3xl mx-auto text-center mb-12">
+<h2 class="font-headline-lg text-headline-lg text-primary mb-6">Individual Species Care Documents</h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant">Each specimen you purchase includes a downloadable PDF tailored to that species — covering water parameters, diet, tank mates, and breeding notes. No generic care sheets; every guide is written by our aquarists for the exact strain we ship.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-gutter">
+<div class="bg-surface p-6 rounded-xl shadow-level-1 border border-surface-variant">
+<span class="material-symbols-outlined text-primary text-3xl mb-3">description</span>
+<h3 class="font-headline-md text-[18px] text-primary mb-2">Shrimp Care</h3>
+<p class="font-body-md text-caption text-on-surface-variant mb-4">Red, Blue & Orange Cherry Shrimp — Neocaridina care, molting, KH/GH, and colony breeding.</p>
+<a href="red-cherry-shrimp.html" class="font-label-md text-label-md text-secondary border-b border-secondary hover:opacity-70">View Shrimp Guides</a>
+</div>
+<div class="bg-surface p-6 rounded-xl shadow-level-1 border border-surface-variant">
+<span class="material-symbols-outlined text-primary text-3xl mb-3">water_drop</span>
+<h3 class="font-headline-md text-[18px] text-primary mb-2">Livebearer Care</h3>
+<p class="font-body-md text-caption text-on-surface-variant mb-4">Guppies, Platies & Endlers — water stability, fry care, and selective breeding tips.</p>
+<a href="maui-mosaic-guppies.html" class="font-label-md text-label-md text-secondary border-b border-secondary hover:opacity-70">View Livebearer Guides</a>
+</div>
+<div class="bg-surface p-6 rounded-xl shadow-level-1 border border-surface-variant">
+<span class="material-symbols-outlined text-primary text-3xl mb-3">filter_alt</span>
+<h3 class="font-headline-md text-[18px] text-primary mb-2">Medaka Care</h3>
+<p class="font-body-md text-caption text-on-surface-variant mb-4">Yozakura, Sapphire & Assorted Medaka — cold-hardy care, outdoor tubs, and egg collection.</p>
+<a href="yozakura-gold-medaka.html" class="font-label-md text-label-md text-secondary border-b border-secondary hover:opacity-70">View Medaka Guides</a>
+</div>
+</div>
+<div class="mt-12 bg-surface-container-low p-8 rounded-2xl border border-outline-variant/30">
+<h3 class="font-headline-md text-headline-md text-primary mb-4">What's Inside Each Document</h3>
+<ul class="grid grid-cols-1 md:grid-cols-2 gap-4">
+<li class="flex gap-3 items-start"><span class="material-symbols-outlined text-secondary mt-1">verified</span><span class="font-body-md text-body-md text-on-surface-variant"><strong>Exact Parameters:</strong> Temp, pH, GH/KH, and TDS ranges tested in our breeding systems.</span></li>
+<li class="flex gap-3 items-start"><span class="material-symbols-outlined text-secondary mt-1">verified</span><span class="font-body-md text-body-md text-on-surface-variant"><strong>Acclimation Protocol:</strong> Drip acclimation steps and first-week feeding schedule.</span></li>
+<li class="flex gap-3 items-start"><span class="material-symbols-outlined text-secondary mt-1">verified</span><span class="font-body-md text-body-md text-on-surface-variant"><strong>Compatibility Chart:</strong> Safe tank mates and species to avoid for each strain.</span></li>
+<li class="flex gap-3 items-start"><span class="material-symbols-outlined text-secondary mt-1">verified</span><span class="font-body-md text-body-md text-on-surface-variant"><strong>QR Code:</strong> Scan on the bag to re-download the latest version anytime.</span></li>
+</ul>
+</div>
+</section>
+
+<!-- Freshwater Aquarium Management Section -->
+<section class="py-section-gap px-margin-mobile md:px-margin-desktop bg-surface-container-low">
+<div class="max-w-container-max mx-auto">
+<div class="max-w-3xl mx-auto text-center mb-12">
+<h2 class="font-headline-lg text-headline-lg text-primary mb-6">Freshwater Aquarium Management</h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant">Beyond individual species, we teach you to master the whole ecosystem — from nitrogen cycling to long-term maintenance.</p>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-gutter items-center">
+<div class="rounded-2xl overflow-hidden shadow-level-1">
+<img alt="Planted freshwater aquarium management" class="w-full h-auto object-cover aspect-[4/3]" src="images/aquarium.jpg">
+</div>
+<div class="lg:pl-12">
+<div class="space-y-6">
 <div class="flex gap-4">
-<a href="#featured" class="bg-[#FF6F61] hover:bg-[#ff8a7d] text-white px-8 py-4 rounded-lg font-label-md text-label-md uppercase tracking-widest transition-all hover:scale-105 shadow-xl inline-block text-center">Explore Collection</a>
-<a href="vendors.html" class="border border-white/50 text-white hover:bg-white/10 px-8 py-4 rounded-lg font-label-md text-label-md uppercase tracking-widest backdrop-blur-sm transition-all inline-block text-center">Partnership Program</a>
-</div>
-</div>
-</div>
-</section>
-<!-- Featured Inhabitants Section -->
-<section id="featured" class="mt-section-gap px-margin-desktop max-w-container-max mx-auto mb-20 scroll-mt-24" style="scroll-margin-top: 96px;">
-<div class="flex justify-between items-baseline mb-12">
+<span class="material-symbols-outlined text-primary text-3xl">cycle</span>
 <div>
-<h2 class="font-headline-lg text-headline-lg text-primary mb-2">Featured Inhabitants</h2>
-<p class="text-on-surface-variant text-body-lg">Hand-selected specimens for discerning hobbyists.</p>
+<h4 class="font-headline-md text-[18px] text-primary mb-1">Cycling & Biological Filtration</h4>
+<p class="font-body-md text-body-md text-on-surface-variant">How to establish a stable nitrogen cycle, seed beneficial bacteria, and avoid new-tank syndrome. Includes our 14-day cycling checklist.</p>
 </div>
 </div>
-<div id="product-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-gutter"></div>
+<div class="flex gap-4">
+<span class="material-symbols-outlined text-primary text-3xl">opacity</span>
+<div>
+<h4 class="font-headline-md text-[18px] text-primary mb-1">Water Management</h4>
+<p class="font-body-md text-body-md text-on-surface-variant">Weekly 20% water changes, remineralization for shrimp, and how to read GH/KH/TDS like a pro. Download our parameter log sheet.</p>
+</div>
+</div>
+<div class="flex gap-4">
+<span class="material-symbols-outlined text-primary text-3xl">local_florist</span>
+<div>
+<h4 class="font-headline-md text-[18px] text-primary mb-1">Plants & Scaping</h4>
+<p class="font-body-md text-body-md text-on-surface-variant">Low-tech plant care, algae control, and scaping for shrimp colonies and medaka ponds — no CO2 required.</p>
+</div>
+</div>
+</div>
+<a href="index.html#featured" class="mt-8 inline-block border-2 border-primary text-primary px-8 py-3 rounded-full font-label-md text-label-md uppercase tracking-wider hover:bg-primary hover:text-on-primary transition-colors duration-300">Browse Livestock</a>
+</div>
+</div>
+</div>
 </section>
-<!-- Care Levels Info (Bento-ish secondary section) -->
-<section class="mt-section-gap px-margin-desktop max-w-container-max mx-auto">
-<div class="grid grid-cols-1 md:grid-cols-2 gap-gutter">
-<div class="bg-primary-container p-12 rounded-2xl flex flex-col justify-center">
-<h3 class="font-headline-lg text-headline-lg text-white mb-4">Precision Care System</h3>
-<p class="text-white text-body-lg mb-8">Our boutique livestock comes with detailed acclimation guides and ongoing support from our master aquarists.</p>
-<div class="flex gap-8">
-<div class="flex flex-col gap-1">
-<span class="text-secondary font-bold text-headline-md">100%</span>
-<span class="text-on-primary-container font-label-md text-caption">Health Guarantee</span>
+
+<!-- Download CTA -->
+<section class="py-section-gap px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto">
+<div class="bg-primary-container p-12 rounded-2xl flex flex-col md:flex-row items-center justify-between gap-8">
+<div>
+<h3 class="font-headline-lg text-headline-lg text-white mb-2">Get Your Care Documents</h3>
+<p class="text-white/90 font-body-md max-w-xl">Every order includes printed guides in the box and instant PDF downloads via email. Need a replacement? Email us with your order number.</p>
 </div>
-<div class="flex flex-col gap-1">
-<span class="text-secondary font-bold text-headline-md">48h</span>
-<span class="text-on-primary-container font-label-md text-caption">Arrive Alive</span>
-</div>
-<div class="flex flex-col gap-1">
-<span class="text-secondary font-bold text-headline-md">Expert</span>
-<span class="text-on-primary-container font-label-md text-caption">Vetted Stock</span>
-</div>
-</div>
-</div>
-<div class="relative rounded-2xl overflow-hidden h-[400px]">
-<img src="images/aquarium.jpg" alt="Aquarium care guide" class="absolute inset-0 w-full h-full object-cover">
-<div class="absolute inset-0 bg-primary/20"></div>
-<div class="relative z-10 p-12 h-full flex flex-col justify-end">
-<a href="care-guide.html" class="bg-white text-primary px-8 py-3 rounded-full font-label-md w-fit hover:scale-105 transition-all shadow-lg inline-block text-center">Care Guides</a>
-</div>
-</div>
+<a href="mailto:care@mountainviewaquatics.example" class="bg-white text-primary px-8 py-3 rounded-full font-label-md whitespace-nowrap hover:scale-105 transition-transform shadow-lg">Request Guides</a>
 </div>
 </section>
 </main>
-<!-- Footer -->
 <footer class="w-full mt-section-gap bg-primary dark:bg-primary-container">
 <div class="grid grid-cols-1 md:grid-cols-2 gap-gutter px-margin-desktop py-12 max-w-container-max mx-auto">
 <div class="flex flex-col gap-6">
@@ -224,8 +268,7 @@
 </div>
 </div>
 </footer>
- <script>
-        // Micro-interactions for header - fixed to target nav so header returns to initial state when scrolled to top
+<script>
         window.addEventListener('scroll', () => {
             const header = document.querySelector('header');
             const nav = header ? header.querySelector('nav') : null;
@@ -240,7 +283,5 @@
                 header.classList.remove('py-4', 'py-2');
             }
         });
-    </script>
-<script src="products.js"></script>
-
+</script>
 </body></html>

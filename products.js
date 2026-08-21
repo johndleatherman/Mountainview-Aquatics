@@ -5,150 +5,6 @@ document.addEventListener('DOMContentLoaded', function () {
   // Fallback data embedded for file:// protocol where fetch is blocked
   var FALLBACK_PRODUCTS = [
   {
-    "id": "red-crystal-shrimp",
-    "name": "Red Crystal Shrimp",
-    "scientificName": "Caridina logemanni",
-    "price": "$12.99",
-    "priceNote": "per specimen",
-    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuDpYJHDc5n-7dl951ThtSZJ4vfuj50PGvbTSMyPUl2NV7alKq6kG9ToFnky4I7BJPrOTWRY1_CIan9mE58jWjHL8hHXj-HfHknxplOAa_1dhIwH0QwiFO18e1fyp7-SjwJf6ijAj5Y6p60CWFg7NFoExc8nWObhaOCvY3QMrndiuhBfBI2bfIlqMDCdupW_41k-6j5dqm0NB66tiMavuHtb5QfYC_VTVbHrpF-FPVqPcjczOigcVdj2jUoH3zr5WerQH4HNRmlpxPo",
-    "category": "Invertebrate",
-    "difficulty": "Moderate",
-    "badges": [
-      {
-        "text": "Invertebrate",
-        "class": "bg-secondary-fixed text-on-secondary-fixed"
-      },
-      {
-        "text": "Moderate",
-        "class": "bg-tertiary-fixed text-on-tertiary-fixed"
-      }
-    ],
-    "description": "Striking red and white banding patterns. Perfect for high-grade shrimp colonies.",
-    "descriptionLong": "A stunning high-grade ornamental shrimp known for its vibrant red and white banding. Perfect for planted aquariums. These delicate creatures act as natural cleaners while adding a striking visual contrast to lush green mosses and aquascapes.",
-    "detailedDescription": "The Red Crystal Shrimp, or CRS, is the crown jewel of the freshwater shrimp hobby. Originating from selective breeding of the Bee Shrimp, these invertebrates require pristine water conditions and specialized substrate to maintain their vibrant red and white coloration.",
-    "bullets": [
-      "Aged water with low carbonate hardness (KH 0-1) is essential for successful molting.",
-      "Highly sensitive to copper and nitrates; we recommend a well-established planted tank."
-    ],
-    "link": "product.html?id=red-crystal-shrimp",
-    "cardButtonText": "View Details",
-    "cardButtonType": "link",
-    "detailBadges": [
-      {
-        "text": "Boutique Choice",
-        "class": "bg-secondary text-on-secondary"
-      },
-      {
-        "text": "Grade SSS",
-        "class": "bg-surface/80 backdrop-blur-sm text-primary"
-      }
-    ],
-    "stockStatus": "In Stock & Ready to Ship",
-    "specs": {
-      "temp": "68-76°F",
-      "ph": "6.0-6.8",
-      "care": "Intermediate"
-    },
-    "breadcrumbCategory": "Invertebrates",
-    "breadcrumbCategoryLink": "index.html#featured"
-  },
-  {
-    "id": "fancy-guppy-pair",
-    "name": "Fancy Guppy Pair",
-    "scientificName": "Poecilia reticulata",
-    "price": "$15.00",
-    "priceNote": "per pair",
-    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuDkD3MN6drkGVBoq80qGjxVqkdUdApA-U9urz5JpRzFDQfPOv7SuyQpO59aORSXlFBnvt9Qs32dQo7NcJakMXMWwk7N8C3fyk041mkAbeThjojaBJFxSSC4qwFaS6oX_zzShHw1fEhILtRI-wscWIi5XQk5lDxAKBuptjRDnMBADI1zV6mpJGbOocblTA2R947_e0or3xiO9Qudo-yZd6FSAsVNEzp10b6L3PqfimrO6UeHu2EtYPrhKDSUHnK6r7ozBzON8WofnS0",
-    "category": "Pair",
-    "difficulty": "Easy",
-    "badges": [
-      {
-        "text": "Pair",
-        "class": "bg-primary-fixed text-on-primary-fixed"
-      },
-      {
-        "text": "Easy",
-        "class": "bg-green-100 text-green-800"
-      }
-    ],
-    "description": "Vibrant orange veiltail patterns. Active, hardy, and stunning for any community tank.",
-    "descriptionLong": "A vibrant and hardy pair featuring flowing orange veiltail fins. Fancy Guppies are perfect for beginners and community tanks, bringing constant movement and brilliant color with minimal care requirements.",
-    "detailedDescription": "The Fancy Guppy is one of the most beloved freshwater fish worldwide, prized for its vivid colors and lively personality. This veiltail pair has been selectively bred for intense orange patterning and elegant finnage, making them a centerpiece in any community aquarium.",
-    "bullets": [
-      "Thrives in a wide range of water parameters; ideal for beginners and community setups.",
-      "Peaceful and active; keep with other small, non-aggressive tank mates for best results."
-    ],
-    "link": "product.html?id=fancy-guppy-pair",
-    "cardButtonText": "Add to Selection",
-    "cardButtonType": "button",
-    "detailBadges": [
-      {
-        "text": "Community Favorite",
-        "class": "bg-secondary text-on-secondary"
-      },
-      {
-        "text": "Veiltail",
-        "class": "bg-surface/80 backdrop-blur-sm text-primary"
-      }
-    ],
-    "stockStatus": "In Stock & Ready to Ship",
-    "specs": {
-      "temp": "72-82°F",
-      "ph": "7.0-7.5",
-      "care": "Easy"
-    },
-    "breadcrumbCategory": "Tropical Fish",
-    "breadcrumbCategoryLink": "index.html#featured"
-  },
-  {
-    "id": "neon-tetra-school",
-    "name": "Neon Tetra School",
-    "scientificName": "Paracheirodon innesi",
-    "price": "$24.99",
-    "priceNote": "per school (10pk)",
-    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuAjv6kF38avwcLf5JedWEg-utJTq086-x_7eMGCAc2VQBF_J7WsYYarirL7FgVY3fh4AfYgj-hbJoZSQidokm1jHEHBHjpiTIA5IoM5Ombrplbpn4H8DY-lq3I4Z1s-eMTlpMKz0TraASmpHrGAW-VJ3Tvc28p3oX4TjXq-6gx4tM4uYTcFfnaSRhvEuu3zuvPF0u-Z8KanCSTeH-jFHAA-XrwFm-4n-AZRAU2fjfwpgLhIYb_HhDlIf8j3Oh0HL4MrY_aPb6ntfls",
-    "category": "School (10pk)",
-    "difficulty": "Easy",
-    "badges": [
-      {
-        "text": "School (10pk)",
-        "class": "bg-secondary-fixed text-on-secondary-fixed"
-      },
-      {
-        "text": "Easy",
-        "class": "bg-green-100 text-green-800"
-      }
-    ],
-    "description": "The iconic flash of the Amazon. These schoolers add movement and electric color.",
-    "descriptionLong": "The iconic Neon Tetra brings electric blue and red flashes to any planted tank. Kept in schools of 10, they create a mesmerizing, synchronized display that captures the wild beauty of the Amazon basin.",
-    "detailedDescription": "Native to the blackwater streams of the Amazon, Neon Tetras are celebrated for their iridescent lateral stripe and tight schooling behavior. A group of 10 creates a stunning visual effect as they move in unison through lush greenery and driftwood aquascapes.",
-    "bullets": [
-      "Best kept in groups of 6+; schools of 10+ display the most natural and vibrant behavior.",
-      "Prefers soft, slightly acidic water with dim lighting and plenty of plant cover."
-    ],
-    "link": "product.html?id=neon-tetra-school",
-    "cardButtonText": "Add to Selection",
-    "cardButtonType": "button",
-    "detailBadges": [
-      {
-        "text": "Schooling Essential",
-        "class": "bg-secondary text-on-secondary"
-      },
-      {
-        "text": "Amazon Strain",
-        "class": "bg-surface/80 backdrop-blur-sm text-primary"
-      }
-    ],
-    "stockStatus": "In Stock & Ready to Ship",
-    "specs": {
-      "temp": "72-80°F",
-      "ph": "6.0-7.0",
-      "care": "Easy"
-    },
-    "breadcrumbCategory": "Schooling Fish",
-    "breadcrumbCategoryLink": "index.html#featured"
-  },
-  {
     "id": "red-cherry-shrimp",
     "name": "Red Cherry Shrimp",
     "scientificName": "Neocaridina davidi",
@@ -174,7 +30,7 @@ document.addEventListener('DOMContentLoaded', function () {
       "Extremely hardy and adaptable; thrives in 65-80F, pH 6.5-8.0.",
       "Excellent algae and biofilm grazer - keep in colonies of 10+ for best color and behavior."
     ],
-    "link": "product.html?id=red-cherry-shrimp",
+    "link": "red-cherry-shrimp.html",
     "cardButtonText": "View Details",
     "cardButtonType": "link",
     "detailBadges": [
@@ -189,7 +45,7 @@ document.addEventListener('DOMContentLoaded', function () {
     ],
     "stockStatus": "In Stock & Ready to Ship",
     "specs": {
-      "temp": "65-80�F",
+      "temp": "65-80°F",
       "ph": "6.5-8.0",
       "care": "Easy"
     },
@@ -222,7 +78,7 @@ document.addEventListener('DOMContentLoaded', function () {
       "Same hardy care as Red Cherry; stable parameters prevent color fading.",
       "Dark substrate and green plants enhance blue contrast dramatically."
     ],
-    "link": "product.html?id=blue-cherry-shrimp",
+    "link": "blue-cherry-shrimp.html",
     "cardButtonText": "View Details",
     "cardButtonType": "link",
     "detailBadges": [
@@ -237,7 +93,7 @@ document.addEventListener('DOMContentLoaded', function () {
     ],
     "stockStatus": "In Stock & Ready to Ship",
     "specs": {
-      "temp": "65-80�F",
+      "temp": "65-80°F",
       "ph": "6.5-8.0",
       "care": "Easy"
     },
@@ -270,7 +126,7 @@ document.addEventListener('DOMContentLoaded', function () {
       "Do not mix colors if you want to maintain pure orange offspring.",
       "Feed mineral-rich shrimp foods to maintain exoskeleton vibrancy."
     ],
-    "link": "product.html?id=orange-cherry-shrimp",
+    "link": "orange-cherry-shrimp.html",
     "cardButtonText": "View Details",
     "cardButtonType": "link",
     "detailBadges": [
@@ -285,7 +141,7 @@ document.addEventListener('DOMContentLoaded', function () {
     ],
     "stockStatus": "In Stock & Ready to Ship",
     "specs": {
-      "temp": "65-80�F",
+      "temp": "65-80°F",
       "ph": "6.5-8.0",
       "care": "Easy"
     },
@@ -318,8 +174,8 @@ document.addEventListener('DOMContentLoaded', function () {
       "Ideal for livebearer breeders; provide floating plants for fry cover.",
       "Hardy across wide parameters; 72-82F, pH 7.0-8.0 recommended."
     ],
-    "link": "product.html?id=maui-mosaic-guppies",
-    "cardButtonText": "Add to Selection",
+    "link": "maui-mosaic-guppies.html",
+    "cardButtonText": "View Details",
     "cardButtonType": "button",
     "detailBadges": [
       {
@@ -333,7 +189,7 @@ document.addEventListener('DOMContentLoaded', function () {
     ],
     "stockStatus": "In Stock & Ready to Ship",
     "specs": {
-      "temp": "72-82�F",
+      "temp": "72-82°F",
       "ph": "7.0-8.0",
       "care": "Easy"
     },
@@ -366,7 +222,7 @@ document.addEventListener('DOMContentLoaded', function () {
       "Provide tall tanks 20+ gallons and vertical driftwood or Amazon swords.",
       "Peaceful for a cichlid but territorial when breeding; keep with tetras and corys."
     ],
-    "link": "product.html?id=koi-angelfish",
+    "link": "koi-angelfish.html",
     "cardButtonText": "View Details",
     "cardButtonType": "link",
     "detailBadges": [
@@ -381,7 +237,7 @@ document.addEventListener('DOMContentLoaded', function () {
     ],
     "stockStatus": "In Stock & Ready to Ship",
     "specs": {
-      "temp": "76-84�F",
+      "temp": "76-84°F",
       "ph": "6.5-7.5",
       "care": "Moderate"
     },
@@ -414,8 +270,8 @@ document.addEventListener('DOMContentLoaded', function () {
       "Tolerates 50-85F; perfect for unheated tanks and outdoor ponds.",
       "Scatter eggs daily among mops or mosses; fry grow quickly on infusoria."
     ],
-    "link": "product.html?id=yozakura-gold-medaka",
-    "cardButtonText": "Add to Selection",
+    "link": "yozakura-gold-medaka.html",
+    "cardButtonText": "View Details",
     "cardButtonType": "button",
     "detailBadges": [
       {
@@ -429,7 +285,7 @@ document.addEventListener('DOMContentLoaded', function () {
     ],
     "stockStatus": "In Stock & Ready to Ship",
     "specs": {
-      "temp": "60-80�F",
+      "temp": "60-80°F",
       "ph": "7.0-8.0",
       "care": "Easy"
     },
@@ -462,8 +318,8 @@ document.addEventListener('DOMContentLoaded', function () {
       "Keep in groups of 6+; peaceful and active near the surface.",
       "Outdoor sunlight enhances sapphire iridescence; provide floating plants for shade."
     ],
-    "link": "product.html?id=sapphire-medaka",
-    "cardButtonText": "Add to Selection",
+    "link": "sapphire-medaka.html",
+    "cardButtonText": "View Details",
     "cardButtonType": "button",
     "detailBadges": [
       {
@@ -477,7 +333,7 @@ document.addEventListener('DOMContentLoaded', function () {
     ],
     "stockStatus": "In Stock & Ready to Ship",
     "specs": {
-      "temp": "60-80�F",
+      "temp": "60-80°F",
       "ph": "7.0-8.0",
       "care": "Easy"
     },
@@ -510,8 +366,8 @@ document.addEventListener('DOMContentLoaded', function () {
       "Great value starter colony; expect mixed fry colors in next generation.",
       "Hardy to 50-85F; thrives in ponds, tubs, or unfiltered nano tanks with plants."
     ],
-    "link": "product.html?id=assorted-medaka",
-    "cardButtonText": "Add to Selection",
+    "link": "assorted-medaka.html",
+    "cardButtonText": "View Details",
     "cardButtonType": "button",
     "detailBadges": [
       {
@@ -525,7 +381,7 @@ document.addEventListener('DOMContentLoaded', function () {
     ],
     "stockStatus": "In Stock & Ready to Ship",
     "specs": {
-      "temp": "60-80�F",
+      "temp": "60-80°F",
       "ph": "7.0-8.0",
       "care": "Easy"
     },
@@ -558,8 +414,8 @@ document.addEventListener('DOMContentLoaded', function () {
       "Livebearer; provide dense plants for fry and expect monthly drops.",
       "Peaceful community fish; keeps 70-82F, pH 7.0-8.2."
     ],
-    "link": "product.html?id=fancy-sunrise-high-fin-platy",
-    "cardButtonText": "Add to Selection",
+    "link": "fancy-sunrise-high-fin-platy.html",
+    "cardButtonText": "View Details",
     "cardButtonType": "button",
     "detailBadges": [
       {
@@ -573,7 +429,7 @@ document.addEventListener('DOMContentLoaded', function () {
     ],
     "stockStatus": "In Stock & Ready to Ship",
     "specs": {
-      "temp": "70-82�F",
+      "temp": "70-82°F",
       "ph": "7.0-8.2",
       "care": "Easy"
     },
@@ -606,8 +462,8 @@ document.addEventListener('DOMContentLoaded', function () {
       "Nano gem; keep in species-only or with shrimp to maintain pure line.",
       "Prolific livebearer; males display constantly to females."
     ],
-    "link": "product.html?id=santa-maria-endler",
-    "cardButtonText": "Add to Selection",
+    "link": "santa-maria-endler.html",
+    "cardButtonText": "View Details",
     "cardButtonType": "button",
     "detailBadges": [
       {
@@ -621,7 +477,7 @@ document.addEventListener('DOMContentLoaded', function () {
     ],
     "stockStatus": "In Stock & Ready to Ship",
     "specs": {
-      "temp": "72-82�F",
+      "temp": "72-82°F",
       "ph": "7.0-8.0",
       "care": "Easy"
     },
@@ -654,8 +510,8 @@ document.addEventListener('DOMContentLoaded', function () {
       "Keep blonde base pure; cull dark-bodied offspring to maintain line.",
       "Hardy and active; ideal for breeding racks and display tanks alike."
     ],
-    "link": "product.html?id=blonde-koi-guppy",
-    "cardButtonText": "Add to Selection",
+    "link": "blonde-koi-guppy.html",
+    "cardButtonText": "View Details",
     "cardButtonType": "button",
     "detailBadges": [
       {
@@ -669,7 +525,7 @@ document.addEventListener('DOMContentLoaded', function () {
     ],
     "stockStatus": "In Stock & Ready to Ship",
     "specs": {
-      "temp": "72-82�F",
+      "temp": "72-82°F",
       "ph": "7.0-8.0",
       "care": "Easy"
     },
@@ -701,26 +557,26 @@ document.addEventListener('DOMContentLoaded', function () {
         return '<span class="' + b.class + ' px-3 py-1 rounded-full text-[10px] font-bold uppercase tracking-wider">' + escapeHtml(b.text) + '</span>';
       }).join('');
 
-      var quickViewLink = p.link || ('product.html?id=' + encodeURIComponent(p.id));
+      var quickViewLink = p.link || ('red-cherry-shrimp.html?id=' + encodeURIComponent(p.id));
       var titleLink = quickViewLink;
-      var buttonText = p.cardButtonText || 'View Details';
+      var buttonText = 'View Details';
       var zoomOutIds = ['orange-cherry-shrimp', 'yozakura-gold-medaka', 'sapphire-medaka', 'fancy-sunrise-high-fin-platy'];
       var isZoomOut = zoomOutIds.indexOf(p.id) !== -1;
       var imgClass = isZoomOut ? 'w-full h-full object-contain p-2 bg-black transition-transform duration-700 group-hover:scale-105' : 'w-full h-full object-cover transition-transform duration-700 group-hover:scale-110';
 
       return '' +
-        '<div class="product-card group relative flex flex-col bg-surface-container-lowest rounded-xl overflow-hidden transition-all duration-500 hover:shadow-2xl hover:shadow-primary/10">' +
+        '<div class="product-card group relative flex flex-col h-full bg-surface-container-lowest rounded-xl overflow-hidden transition-all duration-500 hover:shadow-2xl hover:shadow-primary/10">' +
           '<div class="relative overflow-hidden aspect-square">' +
             '<a href="' + escapeAttr(titleLink) + '"><img class="' + imgClass + '" src="' + escapeAttr(p.image) + '" alt="' + escapeAttr(p.name) + '"></a>' +
             '<div class="absolute top-4 left-4 flex gap-2">' + badgesHtml + '</div>' +
           '</div>' +
-          '<div class="p-6">' +
+          '<div class="p-6 flex flex-col flex-1">' +
             '<div class="flex justify-between items-start mb-2">' +
               '<a href="' + escapeAttr(titleLink) + '" class="font-headline-md text-headline-md text-on-surface hover:text-secondary transition-colors">' + escapeHtml(p.name) + '</a>' +
               '<span class="text-secondary font-bold text-headline-md">' + escapeHtml(p.price) + '</span>' +
             '</div>' +
-            '<p class="text-on-surface-variant text-body-md line-clamp-2 mb-6">' + escapeHtml(p.description) + '</p>' +
-            '<a href="' + escapeAttr(quickViewLink) + '" class="w-full py-3 border border-primary text-primary rounded-lg font-label-md hover:bg-primary hover:text-on-primary transition-all block text-center">' + escapeHtml(buttonText) + '</a>' +
+            '<p class="text-on-surface-variant text-body-md line-clamp-2 mb-6 flex-1">' + escapeHtml(p.description) + '</p>' +
+            '<a href="' + escapeAttr(quickViewLink) + '" class="w-full py-3 mt-auto border border-primary text-primary rounded-lg font-label-md hover:bg-primary hover:text-on-primary transition-all flex items-center justify-center text-center min-h-[48px]">' + escapeHtml(buttonText) + '</a>' +
           '</div>' +
         '</div>';
     }).join('');
