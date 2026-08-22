@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', function () {
       "Extremely hardy and adaptable; thrives in 65-80F, pH 6.5-8.0.",
       "Excellent algae and biofilm grazer - keep in colonies of 10+ for best color and behavior."
     ],
-    "link": "red-cherry-shrimp.html",
+    "link": "product.html?id=red-cherry-shrimp",
     "cardButtonText": "View Details",
     "cardButtonType": "link",
     "detailBadges": [
@@ -78,7 +78,7 @@ document.addEventListener('DOMContentLoaded', function () {
       "Same hardy care as Red Cherry; stable parameters prevent color fading.",
       "Dark substrate and green plants enhance blue contrast dramatically."
     ],
-    "link": "blue-cherry-shrimp.html",
+    "link": "product.html?id=blue-cherry-shrimp",
     "cardButtonText": "View Details",
     "cardButtonType": "link",
     "detailBadges": [
@@ -126,7 +126,7 @@ document.addEventListener('DOMContentLoaded', function () {
       "Do not mix colors if you want to maintain pure orange offspring.",
       "Feed mineral-rich shrimp foods to maintain exoskeleton vibrancy."
     ],
-    "link": "orange-cherry-shrimp.html",
+    "link": "product.html?id=orange-cherry-shrimp",
     "cardButtonText": "View Details",
     "cardButtonType": "link",
     "detailBadges": [
@@ -174,7 +174,7 @@ document.addEventListener('DOMContentLoaded', function () {
       "Ideal for livebearer breeders; provide floating plants for fry cover.",
       "Hardy across wide parameters; 72-82F, pH 7.0-8.0 recommended."
     ],
-    "link": "maui-mosaic-guppies.html",
+    "link": "product.html?id=maui-mosaic-guppies",
     "cardButtonText": "View Details",
     "cardButtonType": "button",
     "detailBadges": [
@@ -222,7 +222,7 @@ document.addEventListener('DOMContentLoaded', function () {
       "Provide tall tanks 20+ gallons and vertical driftwood or Amazon swords.",
       "Peaceful for a cichlid but territorial when breeding; keep with tetras and corys."
     ],
-    "link": "koi-angelfish.html",
+    "link": "product.html?id=koi-angelfish",
     "cardButtonText": "View Details",
     "cardButtonType": "link",
     "detailBadges": [
@@ -270,7 +270,7 @@ document.addEventListener('DOMContentLoaded', function () {
       "Tolerates 50-85F; perfect for unheated tanks and outdoor ponds.",
       "Scatter eggs daily among mops or mosses; fry grow quickly on infusoria."
     ],
-    "link": "yozakura-gold-medaka.html",
+    "link": "product.html?id=yozakura-gold-medaka",
     "cardButtonText": "View Details",
     "cardButtonType": "button",
     "detailBadges": [
@@ -318,7 +318,7 @@ document.addEventListener('DOMContentLoaded', function () {
       "Keep in groups of 6+; peaceful and active near the surface.",
       "Outdoor sunlight enhances sapphire iridescence; provide floating plants for shade."
     ],
-    "link": "sapphire-medaka.html",
+    "link": "product.html?id=sapphire-medaka",
     "cardButtonText": "View Details",
     "cardButtonType": "button",
     "detailBadges": [
@@ -366,7 +366,7 @@ document.addEventListener('DOMContentLoaded', function () {
       "Great value starter colony; expect mixed fry colors in next generation.",
       "Hardy to 50-85F; thrives in ponds, tubs, or unfiltered nano tanks with plants."
     ],
-    "link": "assorted-medaka.html",
+    "link": "product.html?id=assorted-medaka",
     "cardButtonText": "View Details",
     "cardButtonType": "button",
     "detailBadges": [
@@ -414,7 +414,7 @@ document.addEventListener('DOMContentLoaded', function () {
       "Livebearer; provide dense plants for fry and expect monthly drops.",
       "Peaceful community fish; keeps 70-82F, pH 7.0-8.2."
     ],
-    "link": "fancy-sunrise-high-fin-platy.html",
+    "link": "product.html?id=fancy-sunrise-high-fin-platy",
     "cardButtonText": "View Details",
     "cardButtonType": "button",
     "detailBadges": [
@@ -462,7 +462,7 @@ document.addEventListener('DOMContentLoaded', function () {
       "Nano gem; keep in species-only or with shrimp to maintain pure line.",
       "Prolific livebearer; males display constantly to females."
     ],
-    "link": "santa-maria-endler.html",
+    "link": "product.html?id=santa-maria-endler",
     "cardButtonText": "View Details",
     "cardButtonType": "button",
     "detailBadges": [
@@ -510,7 +510,7 @@ document.addEventListener('DOMContentLoaded', function () {
       "Keep blonde base pure; cull dark-bodied offspring to maintain line.",
       "Hardy and active; ideal for breeding racks and display tanks alike."
     ],
-    "link": "blonde-koi-guppy.html",
+    "link": "product.html?id=blonde-koi-guppy",
     "cardButtonText": "View Details",
     "cardButtonType": "button",
     "detailBadges": [
@@ -557,7 +557,7 @@ document.addEventListener('DOMContentLoaded', function () {
         return '<span class="' + b.class + ' px-3 py-1 rounded-full text-[10px] font-bold uppercase tracking-wider">' + escapeHtml(b.text) + '</span>';
       }).join('');
 
-      var quickViewLink = p.link || ('red-cherry-shrimp.html?id=' + encodeURIComponent(p.id));
+      var quickViewLink = p.link || ('product.html?id=' + encodeURIComponent(p.id));
       var titleLink = quickViewLink;
       var buttonText = 'View Details';
       var zoomOutIds = ['orange-cherry-shrimp', 'yozakura-gold-medaka', 'sapphire-medaka', 'fancy-sunrise-high-fin-platy'];
